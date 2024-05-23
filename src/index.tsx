@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <p className="text-yellow-500">This is a yellow text.</p>
   </React.StrictMode>
 );
 
