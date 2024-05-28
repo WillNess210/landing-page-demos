@@ -9,10 +9,13 @@ const ROUTES = {
 const Home: React.FC<{}> = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <div className="text-lg">Home</div>
       {Object.keys(ROUTES).map((path) => (
         <Link key={path} to={path}>
-          {path}
+          <div className="flex">
+            <div className="pr-1">•</div>
+            <div className="text-blue-500">{path}</div>
+          </div>
         </Link>
       ))}
     </div>
