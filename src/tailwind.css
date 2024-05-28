@@ -515,6 +515,9 @@ video {
 .m-auto {
   margin: auto;
 }
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
