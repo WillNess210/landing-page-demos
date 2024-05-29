@@ -1,9 +1,11 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import MushoAI from "./MushoAi";
+import ShipFast from "./ShipFast";
 
 const ROUTES = {
   "/musho-ai": <MushoAI />,
+  "/ship-fast": <ShipFast />,
 };
 
 const Home: React.FC<{}> = () => {
